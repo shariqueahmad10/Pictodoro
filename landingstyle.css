@@ -1,0 +1,56 @@
+main{
+    gap: 20px;
+}
+
+header{
+    background: linear-gradient(to top right, rgb(255, 230, 117), #ffa136, rgb(255, 99, 151));
+}
+
+.card{
+    background-color: #fff383;
+    border-radius: 10px;
+}
+
+.card-images{
+    max-height:500px;
+    max-width:500px;
+    border-radius: 10px;
+    transition: 30ms ease-in-out;
+}
+
+.card:hover{
+    background: linear-gradient(to top right, rgb(255, 230, 117), #ffa136, rgb(255, 99, 151));
+    translate: 0px -10px;
+}
+
+#continue{
+    border-radius: 50px;
+}
+
+.btn{
+    transition: ease-in-out;
+}
+
+.btn:hover{
+    translate: 0 -2px;
+    box-shadow: 0em 1px 5px 1px #4361ee;
+}
+
+.btn-primary, .btn-primary:active,  .btn-primary:visited{
+    background-color: #f72585 !important;
+    border-color: black !important;
+}
+
+.btn-primary:hover, .btn-primary:focus{
+    border-color: black !important;
+    background-color: #7209b7 !important;
+}
+
+.dark-card{
+    background-color: #4361ee;
+}
+
+.dark-card:hover{
+   background: linear-gradient(to top right, #f09, #3023AE, #0ff);
+   border: #3023AE;
+}
